@@ -1,0 +1,671 @@
+@media (max-width: 1200px) {
+    .promo {
+        &_item {
+            height: 289px;
+            width: 216px;
+        }
+        &_title {
+            margin-top: 13px;
+        }
+        &_btn {
+            font-size: 15px;
+        }
+    }
+    .robot {
+        .itc-slider {
+            .wrapper {
+                margin-left: 135px;
+            }
+        }
+        img {
+            width: 680px;
+            height: 425px;
+        }
+    }
+
+    .project {
+        &_1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &_2 {
+            width: 90%;
+        }
+        &_img {
+            margin-right: 0;
+            width: 750px;
+            height: 400px;
+        }
+        &_descr {
+            width: 90%;
+            margin-top: 20px;
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .title {
+        font-size: 30px;
+        &_1 {
+            font-size: 30px;
+        }
+    }
+
+    header {
+        .subheader {
+            padding: 0 120px;
+            height: 71px;
+            &_1 {
+                display: flex;
+                justify-content: center;
+            }
+            &_logo {
+                margin-right: 5px;
+                img {
+                    height: 71px;
+                    width: 71px;
+                }
+            }
+            &_official {
+                font-size: 11px;
+            }
+            &_call {
+                font-size: 12px;
+            }
+            &_phone {
+                font-size: 14px;
+            }
+            &_btn {
+                width: 170px;
+                height: 40px;
+                font-size: 10px;
+            }
+        }
+    }
+
+    .promo {
+        padding: 90px 0 50px 0;
+        &_cards {
+            justify-content: center;
+        }
+        &_card {
+            margin-right: 15px;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+        &_item {
+            height: 260px;
+            width: 194px;
+            margin-right: 15px;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+        &_link {
+            width: 270px;
+            height: 40px;
+        }
+    }
+
+    .scratch {
+        min-height: 530px;
+        .wrapper {
+            display: flex;
+            justify-content: center;
+            iframe {
+                width: 85%;
+                height: 85%;
+            }
+        }
+    }
+
+    .catalog {
+        &__tab {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 45px;
+            width: 205px;
+            font-size: 16px;
+        }
+        &__content {
+            margin-top: 45px;
+        }
+        &-item {
+            .title {
+                font-size: 25px;
+            }
+            .descr {
+                font-size: 17px;
+            }
+        }
+    }
+
+    .project {
+        &_1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &_2 {
+            width: 85%;
+        }
+        &_img {
+            width: 700px;
+            height: 350px;
+            margin-right: 0;
+        }
+        &_descr {
+            width: 85%;
+            margin-top: 15px;
+        }
+    }
+
+    .map {
+        height: 430px;
+        iframe {
+            width: 75%;
+        }
+    }
+
+    .footer {
+        height: 150px;
+    }
+}
+
+@media (max-width: 991px) {
+    .promo {
+        padding: 50px 0 70px 0;
+        &_cards {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 30px;
+        }
+        &_card {
+            width: 500px;
+            margin-right: 0;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        &_item {
+            width: 216px;
+            height: 289px;
+            margin-right: 0;
+        }
+        &_1 {
+            width: 100%;
+            height: 70%;
+            img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+        &_2 {
+            width: 100%;
+            height: 30%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &_title {
+            margin-bottom: 0;
+            margin-top: 17px;
+            font-size: 1.25rem;
+        }
+        &_btn {
+            font-size: 1rem;
+            width: 119px;
+            height: 29px;
+            margin-top: 12px;
+        }
+        &_link {
+            margin-top: 40px;
+        }
+    }
+    .robot {
+        min-height: 400px;
+        .itc-slider {
+            .wrapper {
+                margin-right: 111px;
+            }
+        }
+        img {
+            margin-right: 111px;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .catalog {
+        &__content {
+            margin-top: 20px;
+        }
+        &-item {
+            .title {
+                font-size: 23px;
+            }
+            .descr {
+                font-size: 14px;
+            }
+            img {
+                height: 75%;
+                width: 75%;
+                margin-top: 15px;
+            }
+        }
+    }
+
+    .project {
+        &_2 {
+            width: 95%;
+        }
+        &_img {
+            width: 600px;
+            height: 320px;
+        }
+        &_descr {
+            width: 95%;
+        }
+
+    }
+
+    .footer {
+        min-height: 150px;
+        padding: 15px 0;
+        &_links {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &_link {
+            margin-right: 30px;
+            .title {
+                font-size: 15px;
+                margin-top: 12px;
+            }
+            a {
+                span {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        padding: 0;
+    }
+    .title {
+        font-size: 25px;
+        &_1 {
+            font-size: 25px;
+            margin-bottom: 10px;
+        }
+    }
+    header {
+        .subheader {
+            padding: 0 30px;
+        }
+    }
+    .promo {
+        &_cards {
+            margin-right: 0;
+            margin: 0 auto;
+            margin-top: 15px;
+            width: 450px;
+        }
+        &_card {
+            width: 100%;
+        }
+        &_item {
+            height: 260px;
+            width: 194px;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+    .robot {
+        min-height: 320px;
+        .itc-slider {
+            .wrapper {
+                width: 340px;
+                height: 300px;
+                margin-left: 90px;
+                display: flex;
+                align-items: center;
+                margin: 0 auto;
+            }
+        }
+        img {
+            margin-right: 122px;
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .scratch {
+        min-height: 430px;
+        display: flex;
+        justify-content: center;
+        .wrapper {
+            width: 535px;
+            height: 310px;
+            iframe {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    .catalog {
+        min-height: 450px;
+        &__tabs {
+            margin: 15px 0;
+        }
+        &__tab {
+            width: 147px;
+            height: 32px;
+            font-size: 14px;
+        }
+        &__content {
+            margin-top: 8.5px;
+        }
+        &-item {
+            padding: 10px 10px 14px 10px;
+            .title {
+                font-size: 20px;
+            }
+            .descr {
+                font-size: 11px;
+            }
+        }
+    }
+
+    .project {
+        &_title {
+            font-size: 20px;
+        }
+        .wrapper {
+            margin-top: 15px;
+        }
+        &_2 {
+            width: 83%;
+        }
+        &_img {
+            width: 450px;
+            height: 250px;
+        }
+        &_descr {
+            width: 83%;
+        }
+    }
+
+    .map {
+        iframe {
+            height: 80%;
+        }
+    }
+    .footer {
+        min-height: 330px;
+        &_links {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 5px;
+        }
+        &_link {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-right: 0;
+            a {
+                margin-bottom: 8px;
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .title {
+        font-size: 20px;
+        &_1 {
+            font-size: 20px;
+        }
+    }
+    h1 {
+        font-size: 40px;
+    }
+    header {
+        .subheader {
+            height: 56px;
+            &_logo {
+                img {
+                    height: 56px;
+                    width: 56px;
+                    margin-right: 2px;
+                }
+            }
+            &_official {
+                font-size: 9px;
+            }
+            &_call {
+                font-size: 10px;
+            }
+            &_phone {
+                font-size: 10px;
+            }
+            &_btn {
+                padding: 5px;
+                text-align: center;
+                width: 80px;
+                height: 43px;
+                font-size: 7px;
+                line-height: 8px;
+            }
+        }
+    }
+    .promo {
+        &_cards {
+            width: 300px;
+        }
+        &_card {
+            display: flex;
+            justify-content: center;
+        }
+        &_item {
+            height: 208px;
+            width: 155px;
+            margin-right: 15px;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+        &_title {
+            font-size: 0.8rem;
+            font-weight: 700;
+            margin-top: 0;
+        }
+        &_btn {
+            font-size: 0.8rem;
+        }
+    }
+    .robot {
+        .itc-slider__btn {
+            display: none;
+        }
+    }
+    .scratch {
+        min-height: 330px;
+        padding: 25px 0;
+        .wrapper {
+            margin: 0 auto;
+            width: 350px;
+            height: 170px;
+        }
+    }
+    .catalog {
+        min-height: 400px;
+        padding-bottom: 0;
+        &__tabs {
+            margin: 10px 0;
+        }
+        &__tab {
+            width: 110px;
+            height: 22px;
+            font-size: 12px;
+        }
+        &-item {
+            .title {
+                font-size: 18px;
+            }
+        }
+    }
+    .project {
+        &_title {
+            font-size: 15px;
+        }
+        &_img {
+            width: 340px;
+            height: 200px;
+        }
+        &_descr {
+            width: 78%;
+            font-size: 15px;
+            &__continue {
+                font-size: 15px;
+            }
+        }
+        &_2 {
+            width: 78%;
+        }
+    }
+    .map {
+        height: 350px;
+        iframe {
+            width: 95%;
+        }
+    }
+    .footer {
+        min-height: 320px;
+    }
+}
+
+@media (max-width: 425px) {
+    header {
+        .subheader {
+            .wrapper {
+                display: flex;
+                justify-content: center;
+                margin-top: 5px;
+
+            }
+            &_3 {
+                margin-left: 25px;
+            }
+            &_logo {
+                display: none;
+            }
+            &_official {
+                display: none;
+            }
+            &_phone {
+                font-size: 12px;
+                line-height: 15px;
+            }
+        }
+    }
+    .promo {
+        margin-bottom: 25px;
+        &_card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        &_item {
+            padding: 15px;
+            margin-bottom: 15px;
+            margin-right: 0;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        &_title {
+            font-size: 1rem;
+        }
+        &_link {
+            width: 240px;
+            font-size: 16px;
+        }
+    }
+    .robot {
+        padding-bottom: 0;
+        .itc-slider {
+            .wrapper {
+                width: 272px;
+                height: 240px;
+            }
+            &__btn {
+                display: none;
+            }
+        }
+    }
+    .scratch {
+        min-height: 240px;
+        padding: 15px 0;
+        .wrapper {
+            width: 297.5px;
+            height: 160.5px;
+        }
+    }
+    .catalog {
+        &__tabs {
+            display: flex;
+            flex-direction: column;
+            width: 250px;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+        &__tab {
+            margin: 0;
+            margin-bottom: 8px;
+            width: 100%;
+            height: 30px;
+            font-size: 15px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+    .project {
+        &_img {
+            height: 150px;
+            width: 280px;
+        }
+    }
+    .footer {
+        min-height: 280px;
+        &_link {
+            .title {
+                font-size: 14px;
+                margin-top: 10px;
+            }
+            a {
+                img {
+                    width: 18px;
+                    height: 18px;
+                }
+                span {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}

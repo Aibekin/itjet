@@ -1,0 +1,29 @@
+@import 'base/variables';
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.scrollup{
+    width:40px;
+    height:40px;
+    opacity:0.3;
+    position:fixed;
+    bottom:50px;
+    right:100px;
+    display:none;
+    text-indent:-9999px;
+    background: url('../icons/icon_top.png') no-repeat;
+}
+
+@import 'blocks/main';
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/robots';
+@import 'blocks/scratch';
+@import 'blocks/catalog';
+@import 'blocks/project';
+@import 'blocks/map';
+@import 'blocks/footer';
+@import 'blocks/media'
